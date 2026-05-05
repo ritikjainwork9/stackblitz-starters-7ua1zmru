@@ -1,0 +1,22 @@
+{
+  "name": "rapt-demo",
+  "version": "0.1.0",
+  "description": "Rapt User Management — 3:10 product demo video",
+  "scripts": {
+    "start": "npx remotion studio",
+    "dev": "npx remotion studio",
+    "build": "npx remotion render RaptUserMgmtDemo out/rapt-demo.mp4",
+    "render": "npx remotion render RaptUserMgmtDemo out/rapt-demo.mp4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0",
+    "@remotion/cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
